@@ -1,0 +1,13 @@
+https://netbeans.org/kb/docs/cnd/c-unit-test.html#project
+
+¨link https://sourceforge.net/projects/cunit/files/
+Download the CUnit-2.1-2-src.tar.bz2 source from the CUnit files page and save to temporary directory such as /tmp for example.
+In a terminal window, unpack the CUnit-2.1-2-src.tar.bz2 file as follows:
+$ cd /tmp
+$ bunzip2 CUnit-2.1-2-src.tar.bz2
+$ tar -xvf CUnit-2.1-2-src.tar
+Configure, build, and install CUinit from /tmp as follows:
+$ cd CUnit-2.1-2
+$ ./configure --prefix=/usr
+$ make
+$ make install
